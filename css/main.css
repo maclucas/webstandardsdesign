@@ -1,17 +1,18 @@
 
 p{
- background: 2e1b46;
+ background: #2e1b46;
  font-family: 'Balthazar', serif;
  margin: 0;
  padding-top: 5px;
  padding-bottom: 5px;
  padding-right: 200px;
  padding-left: 200px;
+ width: 100%;
 }
 
  
 h1, h2, h3, h4, h5, h6{
- width: full;
+ width: 100%;
  background: #666;
  padding-top: 5px;
  padding-bottom: 5px;
@@ -23,9 +24,9 @@ h1, h2, h3, h4, h5, h6{
   
 nav ul{
 list-style-type:none;
-width:600px;
+width: 100%;
 margin: 0 auto;
-background: 2e1b46;
+background: #2e1b46;
 overflow: hidden;
 
 }
@@ -39,7 +40,7 @@ nav li{
  
  a {
  text-decoration: none;
- color: fff;
+ color: #d101ee;
  display: block;
  height: 40px;
  line-height: 40px;
@@ -48,15 +49,15 @@ nav li{
 }
  
 a:hover{
- color: 2e1b46;
- background: 9782b1;
+ color: #2e1b46;
+ background: #9782b1;
 }
   
 body{
  background: #b7b6b7;
  background: url("../images/background.jpg")no-repeat center;
- background attachment: fixed;
- width: full;
+ background-attachment: fixed;
+ width: 100%;
 }
 
 ul, ol, img, aside{
@@ -64,10 +65,11 @@ ul, ol, img, aside{
  padding-bottom: 5px;
  padding-right: 200px;
  padding-left: 200px;
+ width: 100%;
 }
 
 #main{
- background: #eod9e8;
+ background: #e0d9e8;
 }
 
 header{
