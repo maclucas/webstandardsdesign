@@ -21,16 +21,17 @@ h1, h2, h3, h4, h5, h6{
  margin: 0;
   }
   
-ul, #mainnav{
+nav ul{
 list-style-type:none;
-width:800px;
+width:500px;
 margin: 0 auto;
 background: 2e1b46;
+
 }
 
-li, #mainnav{
+nav li{
  width: 100px;
- background: 2e1b46;
+ background: silver;
  clear: left;
  }
  
