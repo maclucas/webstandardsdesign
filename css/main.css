@@ -1,13 +1,23 @@
+  
+body{
+ font: 100%/1.5 'Balthazar', serif;
+ background: #b7b6b7;
+ background: url("../images/background.jpg")no-repeat center;
+ background-attachment: fixed;
+ width: 100%;
+ text-align: center;
+
+}
 
 p{
  background: #2e1b46;
- font-family: 'Balthazar', serif;
- margin: 0;
+ font: 1em 'Balthazar', serif;
+ margin-left: 200px;
  padding-top: 5px;
  padding-bottom: 5px;
  padding-right: 200px;
  padding-left: 200px;
- width: 100%;
+ width: 500px;
 }
 
  
@@ -18,13 +28,13 @@ h1, h2, h3, h4, h5, h6{
  padding-bottom: 5px;
  padding-right: 200px;
  padding-left: 200px;
- font-family: 'Balthazar', serif;
+ font: 1.5em 'Balthazar', serif; /*24pixels*/
  margin: 0;
 }
   
 nav ul{
 list-style-type:none;
-width: 100%;
+width: 800px;
 margin: 0 auto;
 background: #2e1b46;
 overflow: hidden;
@@ -51,21 +61,6 @@ nav li{
 a:hover{
  color: #2e1b46;
  background: #9782b1;
-}
-  
-body{
- background: #b7b6b7;
- background: url("../images/background.jpg")no-repeat center;
- background-attachment: fixed;
- width: 100%;
-}
-
-ul, ol, img, aside{
- padding-top: 5px;
- padding-bottom: 5px;
- padding-right: 200px;
- padding-left: 200px;
- width: 100%;
 }
 
 #main{
