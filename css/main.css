@@ -1,41 +1,62 @@
   
 body{
- font: 100%/1.5 'Balthazar', serif;
+ font: 100%/2 'Balthazar', serif;
  background: #b7b6b7;
+ background-size: cover;
  background: url("../images/background.jpg")no-repeat center;
  background-attachment: fixed;
- width: 100%;
  text-align: center;
 
 }
 
 p{
- background: #2e1b46;
- background-width: 57%;
+  background: rgba(255, 255, 255, 0.5);
+  /*background: #2e1b46;*/
  font: .8125em 'Balthazar', serif;
- margin-left: 200px;
- padding-top: 5px;
- padding-bottom: 5px;
- padding-right: 200px;
- padding-left: 200px;
- width: 43%;
+ margin-right: -15%;
+ margin-left: -15%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ padding-right: 20%;
+ padding-left: 20%;
+ width: 80%; /*500px*/
 }
 
- 
-h1, h2, h3, h4, h5,{
- width: 100%;
- background: #666;
- padding-top: 5px;
- padding-bottom: 5px;
- padding-right: 200px;
- padding-left: 200px;
- font: 1.5em Balthazar, serif; /*24pixels*/
- margin: 0;
+img{
+	max-width: 100%;
 }
-  
+ 
+h1, h2, h3, h4, h5, h6{
+ background: #fff;
+ margin-right: -15%;
+ margin-left: -15%;
+ padding-top: 2%;
+ padding-bottom: 2%;
+ padding-right: 25%;
+ padding-left: 20%;
+ font: 1.5em Balthazar, serif; /*24pixels*/
+ font-weight: bold;
+ background: rgba(255, 255, 255, 0.5);
+}
+
+h:after {
+	content: "";
+	opacity: 0.5;
+	position: absolute;
+	z-index: -1; 
+}
+
+ul{
+	list-style-type:none;
+	width: 50%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+
 nav ul{
 list-style-type:none;
-width: 800px;
+width: 50%;
 margin: 0 auto;
 background: #2e1b46;
 overflow: hidden;
@@ -70,8 +91,17 @@ a:hover{
 
 header{
  background: #9782b1;
+ margin-right: -15%;
+ margin-left: -15%;
+ padding-right: 20%;
+ padding-left: 20%;
+ text-align: center;
 }
 
 footer{
  background: #2e1b46;
+  margin-right: -15%;
+ margin-left: -15%;
+ padding-right: 20%;
+ padding-left: 20%;
 }
